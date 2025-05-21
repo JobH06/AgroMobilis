@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMobilis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="https://img.icons8.com/ios-filled/50/228B22/tractor.png" alt="logo" class="w-8 h-8">
+        <h1 class="text-2xl font-bold text-green-700">AgroMobilis</h1>
+      </div>
+      <nav class="space-x-6 text-sm">
+        <a href="#home" class="hover:text-green-700">Home</a>
+        <a href="#diensten" class="hover:text-green-700">Diensten</a>
+        <a href="#over" class="hover:text-green-700">Over Ons</a>
+        <a href="#contact" class="hover:text-green-700">Contact</a>
+        <a href="#marketplace" class="hover:text-green-700">Marketplace</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="bg-green-700 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Handel in Voertuigen & Landbouwmachines</h2>
+    <p class="text-lg">Gespecialiseerd in de wereldwijde handel van grote voertuigen.</p>
+  </section>
+
+  <!-- Diensten -->
+  <section id="diensten" class="py-16 px-6 max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-semibold text-green-700 mb-10">Onze Diensten</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <img src="https://img.icons8.com/ios-filled/50/228B22/car.png" class="mx-auto mb-4"/>
+        <h4 class="font-bold text-xl">Auto's</h4>
+        <p>Im- en export van personenauto’s.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/50/228B22/tractor.png" class="mx-auto mb-4"/>
+        <h4 class="font-bold text-xl">Landbouwvoertuigen</h4>
+        <p>Handel in tractoren en landbouwmachines.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/50/228B22/truck.png" class="mx-auto mb-4"/>
+        <h4 class="font-bold text-xl">Vrachtwagens</h4>
+        <p>Distributie en verkoop van zware vrachtwagens.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Over Ons -->
+  <section id="over" class="bg-gray-100 py-16 px-6 text-center">
+    <h3 class="text-3xl font-semibold text-green-700 mb-4">Over Ons</h3>
+    <p class="max-w-3xl mx-auto text-gray-700">AgroMobilis heeft uitgebreide ervaring in de handel van voertuigen. Ons team van experts zet zich in voor kwaliteit en klanttevredenheid.</p>
+  </section>
+
+  <!-- Marketplace -->
+  <section id="marketplace" class="py-16 px-6 text-center">
+    <h3 class="text-3xl font-semibold text-green-700 mb-4">Marketplace</h3>
+    <p class="max-w-3xl mx-auto text-gray-700">Bekijk onze actuele voorraad voertuigen en machines. Binnenkort beschikbaar als online catalogus!</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-16 px-6">
+    <h3 class="text-3xl font-semibold text-green-700 text-center mb-10">Neem Contact Op</h3>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+      <form class="space-y-4">
+        <input type="text" placeholder="Naam" class="w-full p-3 border rounded">
+        <input type="email" placeholder="E-mail" class="w-full p-3 border rounded">
+        <textarea placeholder="Bericht" class="w-full p-3 border rounded h-32"></textarea>
+        <button type="submit" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-800">Verzend</button>
+      </form>
+      <div class="space-y-4 text-gray-700">
+        <p><strong>Telefoon:</strong> +31 123 456 789</p>
+        <p><strong>E-mail:</strong> info@agromobilis.nl</p>
+        <p><strong>Adres:</strong> Adreslaan 123, 1234 AB Plaats</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-200 text-center py-6 text-sm text-gray-600">
+    &copy; 2025 AgroMobilis. Alle rechten voorbehouden.
+  </footer>
+</body>
+</html>
